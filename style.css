@@ -1,0 +1,43 @@
+body { 
+    background-image:  url(./Image/Mask\ group.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.first-sect {
+    display: flex;
+    justify-content: center;
+}
+.first-sect div {
+    padding: 30px;
+    border-radius: 10mm;
+    text-align: center;
+    background-image: url('./Image//Rectangle\ 2.png');
+    margin: 15%;
+}
+.first-sect h1 {
+    border-bottom: 1mm solid black;
+    padding-bottom: 20px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.first-sect div button {
+  margin-top: 5%;  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(80, 80, 225);
+  color: white;
+  font-weight: 800;
+  border-radius: 2mm;
+  border: none;
+  cursor: pointer;
+}
+.first-sect div button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* bACKGROUND PIC D9D9D9 */
+/* DASHBORD COLOR 969090 */

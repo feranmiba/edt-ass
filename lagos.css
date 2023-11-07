@@ -1,0 +1,98 @@
+body { 
+    background-color: #D9D9D9;
+}
+.first-div {
+    text-align: center;
+}
+.first-div p {
+    margin-top: -1%;
+}
+.first-sect {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+.first-sect-1div {
+    background-color: #969090;
+    padding: 20px 30px;
+    border-radius: 5mm;
+}
+.first-sect-1div h1 {
+    text-transform: uppercase;
+}
+.list li{
+    padding-top: 5%;
+}
+.downloads {
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.downloads button {
+    margin-top: 5%;
+    padding: 10px 5px;
+}
+.team {
+    margin-top: 50%;
+}
+.team button {
+    padding: 10px 10px;
+    background-color: rgb(1, 1, 33);
+    color: white;
+    border: none;
+    border-radius: 3mm;
+}
+.team button:hover,
+.team button:active {
+    background-color: whitesmoke;
+    color: rgb(37, 35, 35);
+}
+.content-page {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5mm;
+    text-align: center;
+}
+.our-name {
+   position: absolute;
+   z-index: 10;
+   transform: translate(-40%, -40%);
+   top: 50%;
+   left: 40%;
+   background-color: white;
+   box-shadow: 0 4rem 5rem rgba(0, 0, 0.3);
+   padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #9d9797;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(30, 30, 71);
+    padding: 5px;
+   border-radius: 3mm;
+}
+td, th {
+    border: 1px solid #8b8585;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #969090;
+}
+.overlay {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(6, 6, 6, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+}
+.hid {
+    display: none;
+}
